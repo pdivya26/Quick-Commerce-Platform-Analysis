@@ -42,15 +42,24 @@ Key KPIs: ₹488.1M total revenue | 854K orders | 3.04 avg rating | 16.5 min avg
 ```
 quick-commerce-analysis/
 │
+├── data/
+|   ├── quick_commerce_analysis_raw
+|   └── quick_commerce_analysis_clean
+|
+├── powerbi/
+│   └── quick_commerce_platform_analysis_dashboard.pbix
+|
 ├── sql/
 │   ├── 01_create_table.sql          # Schema creation and data loading
+|   ├── 02_data_exploration.sql      # Initial data exploration, summary statistics, and quality checks
+|   ├── 03_data_cleaning.sql         # Data cleaning, null handling, duplicate removal, and validation
 │   ├── 04_platform_analysis.sql     # Platform comparison queries
 │   ├── 05_delivery_analysis.sql     # Delivery performance queries
 │   ├── 06_customer_analysis.sql     # Customer behavior queries
 │   ├── 07_revenue_analysis.sql      # Revenue and order value queries
 │   └── 08_advanced_queries.sql      # CTEs, window functions, subqueries
 │
-├── dashboards/
+├── screenshots/
 │   ├── quick_commerce_analysis_overview.png
 │   ├── platform_and_delivery_performance.png
 │   └── customer_and_revenue_insights.png
@@ -76,7 +85,7 @@ Dataset Source: [Quick Commerce Operational Dataset (Kaggle)](https://www.kaggle
 | Columns |	13 Features |
 | Data Type |	Synthetic Quick Commerce Operational Data |
 
-**Note on Dataset:** This dataset is synthetic and exhibits highly balanced distributions across several dimensions such as product categories, payment methods, and platform order volumes. The project focuses primarily on demonstrating analytical workflow, SQL techniques, business interpretation, and dashboard storytelling.
+**Note on Dataset:** This dataset is **synthetic** and exhibits highly balanced distributions across several dimensions such as product categories, payment methods, platform order volumes and includes platforms such as Dunzo that may no longer be fully operational in the current market. The project focuses primarily on demonstrating analytical workflow, SQL techniques, business interpretation, and dashboard storytelling.
 
 ## Project Workflow
 
