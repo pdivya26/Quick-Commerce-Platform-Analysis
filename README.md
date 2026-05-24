@@ -1,8 +1,6 @@
 # Quick Commerce Platform Analysis
 
-**An end-to-end data analysis project examining the Indian quick commerce market across 8 platforms, 12 cities, and 854K orders — using PostgreSQL for data analysis and Power BI for visualization.**
-
-This project analyzes the competitive landscape of India's quick commerce industry. Using a dataset of ~854,000 orders, the analysis explores platform performance, delivery efficiency, customer behavior, and revenue patterns across major players like Blinkit, Zepto, Swiggy Instamart, Dunzo, JioMart, BigBasket, Amazon Now, and Flipkart Minutes.
+An end-to-end data analytics project that analyzes the competitive landscape of India's quick commerce industry — examining platform performance, delivery efficiency, customer behavior, and revenue patterns across 8 platforms and 12 cities using a dataset of ~854,000 orders.
 
 The project was built to answer one central question: **Which platform is leading India's quick commerce market, and why?**
 
@@ -87,17 +85,6 @@ Dataset Source: [Quick Commerce Operational Dataset (Kaggle)](https://www.kaggle
 
 **Note on Dataset:** This dataset is **synthetic** and exhibits highly balanced distributions across several dimensions such as product categories, payment methods, platform order volumes and includes platforms such as Dunzo that may no longer be fully operational in the current market. The project focuses primarily on demonstrating analytical workflow, SQL techniques, business interpretation, and dashboard storytelling.
 
-## Project Workflow
-
-1. Imported raw CSV data into PostgreSQL
-2. Performed data exploration and quality checks
-3. Cleaned invalid and inconsistent records
-4. Conducted platform, delivery, customer, and revenue analysis using SQL
-5. Built advanced analytical queries using window functions and CTEs
-6. Exported cleaned data to Power BI
-7. Designed interactive dashboards for business storytelling
-8. Generated operational and strategic business recommendations
-
 ## Key Findings
 
 ### Platform Performance
@@ -136,4 +123,6 @@ Dataset Source: [Quick Commerce Operational Dataset (Kaggle)](https://www.kaggle
 5. **Don't overlook the 46–60 demographic** — they are the largest customer segment and should be factored into UX, product, and marketing decisions.
 6. **Investigate Hyderabad separately** — the city-wide rating suppression warrants a dedicated operational and customer experience audit.
 
-**Connect with the Author:** [LinkedIn](https://www.linkedin.com/in/divya-poojari/), [Portfolio Link](https://pdivya26.github.io/Portfolio/)
+## Author
+
+Divya Poojari - [LinkedIn](https://www.linkedin.com/in/divya-poojari/) | [Portfolio](https://pdivya26.github.io/Portfolio/)
