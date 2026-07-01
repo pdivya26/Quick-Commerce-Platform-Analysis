@@ -11,30 +11,27 @@ Three interactive Power BI dashboards were developed to present the analytical f
 ### 1. Quick Commerce Analysis (Overview)
 <img width="1251" height="703" alt="quick_commerce_analysis_overview" src="https://github.com/user-attachments/assets/9aec393d-4eb7-456d-9cf4-1c575b221f36" />
 
-Key KPIs: ₹488.1M total revenue | 854K orders | 3.04 avg rating | 16.5 min avg delivery
-
-- Revenue by city (bar chart)
-- Market share by platform (donut chart)
-- Order distribution by customer rating (bar chart)
-- Slicers: Company, City, Product Category
+- Revenue by City — Which cities drive the most revenue? Gurgaon, Noida and Delhi dominate; Tier 2 cities like Haridwar and Jaipur lag significantly.
+- Orders by Platform — Is any platform dominating market share? No — every platform holds ~12%, the market is still wide open.
+- Orders by Customer Rating — Are customers actually satisfied? Mostly average — ratings 2, 3, 4 dominate; very few customers give a 5.
 
 ### 2. Platform & Delivery Performance
 <img width="1250" height="701" alt="platform_and_delivery_performance" src="https://github.com/user-attachments/assets/886560ca-5a1f-4045-83df-ff95f6a85f23" />
 
-- Avg delivery time by platform (JioMart slowest at ~22 min; Zepto fastest at ~9.5 min)
-- Delivery time vs customer rating scatter plot
-- City-wise delivery times (Haridwar slowest; Delhi fastest)
-- Partner rating vs customer rating scatter (weak correlation)
-- Discount rate by platform (uniform ~39–40% across all)
+- Delivery Time by Platform — Which platform keeps its delivery promise? Zepto is fastest at 9.5 min; JioMart consistently fails at 23 min.
+- Delivery Time vs Rating Scatter — Does faster delivery mean happier customers? Only up to 20 minutes — beyond that, speed alone doesn't improve ratings.
+- City Delivery Times — Where are logistics breaking down? Haridwar is the slowest city; Delhi is the fastest.
+- Partner Rating vs Customer Rating — Do better delivery partners lead to better reviews? No — the correlation is weak; customers rate the full experience.
+- Discount Rate by Platform — Are platforms competing on discounts? No — all platforms offer identical rates (~39-40%), no differentiation here.
 
 ### 3. Customer & Revenue Insights
 <img width="1249" height="701" alt="customer_and_revenue_insights" src="https://github.com/user-attachments/assets/3c6edd54-a606-40d6-a0c9-796105770938" />
 
-- Revenue by platform (Swiggy Instamart leads at ₹68.9M)
-- Product category orders treemap (all 7 categories near-equal at ~14%)
-- Discount impact on order value (₹713 discounted vs ₹477 non-discounted)
-- Payment method split (perfectly uniform at ~20% per method)
-- Order value distribution histogram
+- Revenue by Platform — Who is winning commercially? Swiggy Instamart leads at ₹68.9M, driven by highest average order value not order volume.
+- Product Category Treemap — What are customers actually buying? Every category holds exactly 14% — no single category anchors the business.
+- Discount Impact — Do discounts actually pay off? Yes — discounted orders average ₹713 vs ₹477 without, a 49.6% uplift.
+- Payment Method Split — How do customers prefer to pay? Evenly across all five methods at 20% each — no method can be deprioritized.
+- Order Value Distribution — What does the typical order look like? High frequency low value orders dominate; large baskets are extremely rare.
 
 ## Project Structure
 ```
