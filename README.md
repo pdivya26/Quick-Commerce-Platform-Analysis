@@ -108,7 +108,7 @@ Dataset Source: [Quick Commerce Operational Dataset (Kaggle)](https://www.kaggle
 - A clear **Tier 1 vs Tier 2 spending gap** exists: NCR cities (Gurgaon ₹695, Noida ₹685) spend ~60% more per order than Tier 2 cities (Haridwar ₹435, Jaipur ₹454).
 
 ### City Anomalies
-- **Hyderabad** shows suppressed ratings across all platforms — even Blinkit scores only 2.99 there vs its national average of 3.55. City-level factors beyond platform control are likely at play.
+- **Hyderabad** shows suppressed ratings across all platforms - even Blinkit scores only 2.99 there vs its national average of 3.55. Delivery time, distance, partner rating, order value, discount rate and basket size are all in line with other cities, so none of them explain the gap. Since the dataset is synthetic, this is **likely a built-in city-level effect** rather than a real operational cause.
 - No single city has all platforms performing above the national average rating — every market has at least one underperformer (consistently Dunzo or JioMart).
 
 ## Business Recommendations
