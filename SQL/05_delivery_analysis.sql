@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 05_delivery_analysis.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE: Understand delivery performance
 -- BUSINESS QUESTION: What affects delivery speed and satisfaction?

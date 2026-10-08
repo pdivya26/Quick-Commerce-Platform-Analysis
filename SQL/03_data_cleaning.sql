@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 03_data_cleaning.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE: Fix data quality issues
 -- BUSINESS QUESTION: How do we clean and prepare data for reliable analysis?
@@ -51,6 +50,13 @@ delivery_time_min BETWEEN 5 AND 120    -- remove extreme outliers
     AND order_value >= 50                  -- remove suspiciously low values
     AND customer_rating BETWEEN 1 AND 5    -- valid ratings only
     AND delivery_partner_rating BETWEEN 1 AND 5;
+
+SELECT COUNT(*)
+FROM quick_commerce
+WHERE customer_rating IS NULL
+   OR delivery_partner_rating IS NULL
+   OR delivery_time_min IS NULL
+   OR order_value IS NULL;
 
 -- FINDING: Cleaned table created with filters applied
 

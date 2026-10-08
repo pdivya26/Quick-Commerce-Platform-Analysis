@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 07_revenue_analysis.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE: Understand revenue and order value patterns
 -- BUSINESS QUESTION: Where does money come from and what drives it?

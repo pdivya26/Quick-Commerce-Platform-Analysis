@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 04_platform_analysis.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE : Compare performance across platforms
 -- BUSINESS QUESTION: Which platform is best?

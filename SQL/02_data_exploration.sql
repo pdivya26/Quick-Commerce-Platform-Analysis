@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 02_data_exploration.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE: Understanding the dataset structure
 -- BUSINESS QUESTION: What does the raw dataset look like ? 

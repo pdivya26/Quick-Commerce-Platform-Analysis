@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 06_customer_analysis.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE: Understand customer behavior
 -- BUSINESS QUESTION: Who orders what, how, and how satisfied are they?

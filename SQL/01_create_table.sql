@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 01_create_table.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE: Creating the table and loading raw CSV data
 -- ============================================

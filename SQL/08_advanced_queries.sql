@@ -1,6 +1,5 @@
 -- ============================================
 -- PROJECT : Quick Commerce Platform Analysis
--- FILE    : 08_advanced_queries.sql
 -- AUTHOR  : Divya Poojari
 -- PURPOSE: Advanced SQL to demonstrate skills
 -- Covers: CTEs, Window Functions, Subqueries
